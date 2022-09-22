@@ -1,0 +1,280 @@
+@media (min-width:1200px) and (max-width:1400px){
+    body {
+        background-position: center;
+    }
+
+    div.hug {
+        padding-right: 5vh;
+        padding-left: 5vh;
+    }
+
+    div.serv div.section {
+        padding: 15px 20px;
+    }
+
+    div.work div.text div::after {
+        width: 500%;
+        left: -200%;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    body {
+        background-position: center;
+    }
+
+    div.logo div.right ul li a {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    /* div.slider img {
+        width:300px;
+        height: 300px; 
+    } */
+
+    div.hug {
+        padding-right: 5vh;
+        padding-left: 5vh;
+    }
+
+    div.serv {
+        flex-wrap: wrap;
+     }
+
+    div.serv div.section {
+        padding: 15px 20px;
+        width: 40%;
+    }
+
+    div.serv div.section h2 {
+        font-size:30px;
+    }
+
+    div.serv div.section i {
+        font-size: 80px;
+    }
+
+    div.work div.text div::after {
+        width: 430%;
+        left: -165%;
+    }
+
+    div.foot div.tweets {
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    body {
+        background-position: center;
+    }
+
+    div.logo {
+        flex-direction: column;
+    }
+
+    div.logo div.left {text-align: center; margin-bottom: 20px;}
+
+    div.logo div.right ul li a {
+        padding: 5px 5px;
+    }
+
+    div.slider {
+        flex-direction: column-reverse;        
+    }
+
+    div.slider div.text {
+        width: 100%;
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+
+    div.hug {
+        padding-right: 2vh;
+        padding-left: 2vh;
+    }
+
+    div.serv {
+        flex-wrap: wrap;
+     }
+
+    div.serv div.section {
+        padding: 15px 20px;
+        width: 40%;
+    }
+
+    div.serv div.section h2 {
+        font-size:25px;
+    }
+
+    div.serv div.section i {
+        font-size: 80px;
+    }
+
+    div.work div.text div::after {
+        width: 300%;
+        left: -100%;
+    }
+
+    div.foot {
+        flex-wrap: wrap;
+    }
+
+    div.foot div.tweets {
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    body {
+        background-position: center;
+    }
+
+    div.logo {
+        flex-direction: column;
+    }
+
+    div.logo div.left {text-align: center; margin-bottom: 20px;}
+
+    div.logo div.right ul li a {
+        padding: 5px 5px;
+    }
+
+    div.slider {
+        flex-direction: column-reverse;        
+    }
+
+    div.slider div.text {
+        width: 100%;
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+
+    div.hug {
+        padding-right: 2vh;
+        padding-left: 2vh;
+    }
+
+    div.serv {
+        flex-wrap: wrap;
+     }
+
+    div.serv div.section {
+        padding: 15px 20px;
+        width: 40%;
+    }
+
+    div.serv div.section h2 {
+        font-size:25px;
+    }
+
+    div.serv div.section i {
+        font-size: 80px;
+    }
+
+    div.work div.text div::after {
+        display: none;
+    }
+
+    div.foot {
+        flex-wrap: wrap;
+    }
+
+    div.foot div.tweets {
+        width: 50%;
+    }
+}
+
+@media(max-width: 576px){
+    body {
+        background-position: center;
+        width: fit-content;
+    }
+
+    div.logo {
+        flex-direction: column;
+    }
+
+    div.logo div.left {text-align: center; margin-bottom: 20px;}
+
+    div.logo div.right ul li a {
+        padding: 5px 5px;
+        font-size: 7px;
+    }
+
+    div.header {
+        height: 100vh;
+    }
+
+    div.slider {
+        flex-direction: column-reverse;        
+    }
+
+    div.slider div.text {
+        width: 100%;
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    div.slider img {
+        width:200px;
+        height: 200px; 
+    }
+
+
+    div.hug {
+        padding-right: 2vh;
+        padding-left: 2vh;
+    }
+
+    div.serv {
+        flex-wrap: wrap;
+     }
+
+    div.serv div.section {
+        padding: 15px 20px;
+        width: 40%;
+    }
+
+    div.serv div.section h2 {
+        font-size:80%;
+    }
+
+    div.serv div.section i {
+        font-size: 80px;
+    }
+
+    div.work div.text div::after {
+        display: none;
+    }
+
+    div.work div.img img {
+        width: 290px;
+        height: 190px;
+    }
+
+    div.work div.img div::after {
+        width: 85%;
+    }
+
+    div.foot {
+        flex-wrap: wrap;
+    }
+
+    div.foot div {
+        width: 100%;
+    }
+
+    div.copy div.hug {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+/* ==========   height   ========== */
+
